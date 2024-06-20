@@ -216,3 +216,26 @@
     
   }
 
+  /* Contacto*/
+
+  .input1 {
+    border-color: #603087;
+    border-radius: 5px;
+    
+
+  }
+  .texto-area {
+    border-color: #603087;
+    border-radius: 5px;
+  }
+
+  .button {
+    border-radius: 10px;
+    pagging: 10px 10px 10px; 
+    border-color: #603087;
+    color:#ffc90e;
+  }
+
+  .titulo-h2 {
+    color: #22b14c;
+  }
