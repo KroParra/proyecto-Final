@@ -1,0 +1,215 @@
+@font-face {
+  font-family: rubik;
+  src: url(../Averia_Sans_Libre\Rubik/);
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: rubik;
+}
+.logo {
+  width: 4rem;
+}
+.header {
+  background-color: #22b14c;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.menu-link {
+  text-decoration: none;
+}
+.bord {
+  height: 30rem;
+  background-image: url(../images/fantasy-vr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bord-titulo {
+  color: #ffc90e;
+  font-size: 5rem;
+}
+.mona {
+  width: 50%;
+  height: 50%;
+}
+.tarjeta .articulo {
+  background-color: #ffc90e;
+  color: #5f328c;
+  height: 50%;
+  border-radius: 15px;
+  padding: 15px;
+  font-family: rubik;
+}
+.sub {
+  background-color: #603087;
+  padding: 15px 15px 15px 25px;
+  color: #ffff;
+}
+.sub-titulo {
+  background-color: aqua;
+}
+
+.parrafo {
+  margin-top: 15px;
+  padding: 1rem;
+  color: #ffc90e;
+}
+.parrafo-nosotros {
+  background-color: aqua;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.somos {
+  background-color: #603087;
+  color: #ffff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+*footer {
+  background-color: #22b14c;
+  padding: 15px;
+}
+
+.menu-1 {
+  background-color: #22b14c;
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  padding: 25px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.imagen {
+  width: 80px;
+  height: 80px;
+  margin-top: 25px;
+  border-radius: 15px;
+  border-spacing: 10px;
+}
+
+/* Nosotros*/
+
+.banner {
+  height: 30rem;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: rubik;
+}
+
+.titulo-banner {
+  color: #ffff;
+  size: 5rem;
+  text-align: center;
+  padding: 5rem;
+  font-family: rubik;
+}
+
+.texto-banner {
+  color: #ffff;
+  text-align: center;
+  size: 3rem;
+}
+
+.sub-titulo-1 {
+  color: #22b14c;
+}
+
+.hola {
+  background-image: url(../images/icono-silueta-hombre.png);
+  background-size: cover;
+  height: 15rem;
+}
+
+.video-container {
+  position: relative;
+  width: cover;
+  max-width: 600px;
+}
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+.video-container .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* A Futuro */
+
+.titulo-1 {
+  color: #22b14c;
+}
+
+.texto-3 {
+  background-color: #22b14c;
+  background-size: 100%;
+}
+
+.texto-2 {
+  background-color: #5f328c;
+  background-size: 100%;
+}
+.texto-1 {
+  background-color: #ffc90e;
+  background-size: 100%;
+}
+
+.texto-img {
+  background-image: url(../images/icono-mujer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+/* Contacto*/
+
+.input1 {
+  border-color: #603087;
+  border-radius: 5px;
+}
+.texto-area {
+  border-color: #603087;
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 10px 10px 10px;
+  border-color: #603087;
+  color: #ffc90e;
+}
+
+.titulo-h2 {
+  color: #22b14c;
+}
