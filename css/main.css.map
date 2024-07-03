@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sources":["parciales/_variables.scss","parciales/_reset.scss"],"names":[],"mappings":"AAAA,WACI,iBAAA,CACA,mCAAA,CCFJ,EACI,UAAA,CACA,SAAA,CACA,qBAAA,CACA,iBDCS","file":"main.css"}
