@@ -1,8 +1,7 @@
-@font-face {
-    font-family: rubik;
-    src: url(../Averia_Sans_Libre\Rubik/);
-  }
- 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+$fontrubik: "Rubik", sans-serif;
+  
   $mainColor:  #990276;
   $hovemainrcolor: #611250;
   $hoversecondcolor: #9B578B;

@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Nosotros</title>
+    
+    <!-- Iconos -->
+
+    <script src="https://kit.fontawesome.com/aedf8c4ee0.js" crossorigin="anonymous"></script>
+
     <link rel="shortcut icon" href="../images/Recurso 1-8.png" type="image/x-icon">
     
     <!-- Bootstrap -->
@@ -12,8 +18,11 @@
     
      <!-- Mis estilos css -->
 
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/main.css">
 
+    <!-- animaciones -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body> 
@@ -26,9 +35,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav nav">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -44,19 +53,20 @@
     </div>
   </nav>
   <section class="banner"> 
-
-    <h1 class="titulo-banner">Bienvenido a nuestra historia</h1>
+    <h1 data-aos="zoom-in data-aos-easing="ease-in-back
+    data-aos-delay="600"
+    data-aos-offset="0" class="titulo-banner">Bienvenido a nuestra historia</h1>
   </section>
 </header>
 <main class="content">
-    <h2 class="sub-titulo-1 container mt-3">
+    <h2 class= "sub-titulo-1 container mt-3">
     Te cuento que somos...
     </h2>
   <div class="container">
     <div class="row">
-      <div class="col col-md-8 ">
+      <div class="col col-md-5 ">
         <div class="text-conatiner ms-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, in animi exp licabo, neque non enim labore doloremque laborum cupiditate ad nihil aliquam nobis quia veniam dolores </div>
-        <button class="btn btn-success mt-3">
+        <button class="btn btn mt-3" data-aos="fade-right">
           CONTÁCTANOS
         </button> 
       </div>
@@ -64,11 +74,13 @@
   </div>
   <div class="video-container">
     <video autoplay muted loop>
-      <source src="../Video/Herencia EN Timbiqui -vid2 -2.mp4" type="video/mp4">
+      <source src="../Video/the camara runs in to the vr head sets, the backgound is a wireframe space-8532f8.mp4" type="video/mp4">
       
     </video>
     <div class="text-overlay">Navegamos en la realidad</div>
   </div>
+
+  <div data-aos="fade-right">esto es prueba</div> 
   
 
   <!-- <main class="videos d-flex justify-content-center"> 
@@ -77,8 +89,27 @@
 
   </main>-->
 </main>
-  <footer>
-    <img src="../images/Logo.png" alt="logo de borde" width="50" height="50"> 
+  
+  <footer class="footer">
+    <div class="redes">
+       <div data-aos="fade-right" class="iconos">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+       </div>
+    </div>
+    <ul class="nav justify-content-center">
+      <img src="../images/Logo.png" alt="logo de borde" width="50" height="50"> 
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#">Nuestros aliados</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Preguntas frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tienda</a>
+      </li>
+    </ul>
     
     
     
@@ -87,8 +118,12 @@
     <!-- <p>Nuestros aliados</p> -->
     <!-- <p>Preguntas frecuentes</p> -->
     <!-- <p>Tienda</p> -->
-    <!-- </footer> -->
+  </footer>
     
  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>   
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
 </body>
 </html>

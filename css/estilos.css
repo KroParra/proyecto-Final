@@ -8,6 +8,7 @@
 }
 .logo {
   width: 4rem;
+  margin-right: 1rem;
 }
 .header {
   background-color: #22b14c;
@@ -23,9 +24,8 @@
   list-style-type: none;
   gap: 1rem;
 }
-.menu-link {
-  text-decoration: none;
-}
+
+
 .bord {
   height: 30rem;
   background-image: url(../images/fantasy-vr.jpg);
@@ -80,11 +80,19 @@
   padding: 15px;
 }
 
-*footer {
-  background-color: #22b14c;
+*.footer {
+  background-image: url(../images/Footer-luz-lentes-azul.webp);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 15px;
-}
 
+}
+.nav-link {
+  color: #59F037;
+  font-weight: 500;
+}
 .menu-1 {
   background-color: #22b14c;
   display: flex;
@@ -109,16 +117,9 @@
 }
 
 /* Nosotros*/
-
-.banner {
- 
-  height: 30rem;
-  background-image: url(../images/virtual-robot.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: rubik;
-  
+.nav {
+  background-color:#990276;
+  opacity: 0.4;
 }
 
 /*section .banner {
@@ -128,23 +129,6 @@
 
 }*/
 
-.titulo-banner {
-  color: #990276;
-  size: 5rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  padding: 5rem;
-  font-family: rubik;
-  
-  
-}
-
-.texto-banner {
-  color: #ffff;
-  text-align: center;
-  size: 3rem;
-}
 .mascara {
   background: linear-gradient(#9B578C red);
 }
@@ -164,15 +148,14 @@
 .video-container {
   position: relative;
   width: cover;
-  max-width: 1440vh;
   margin-top: 2rem;
-  
+  margin-bottom: 3rem;
 }
 .video-container video {
   width: 100%;
   height: auto;
   border-radius: 2rem;
-  border-color: #ffc90e;
+  
   
 }
 .video-container .text-overlay {
@@ -180,7 +163,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   background-color: #9B578B;
   opacity: .6;
   color: #59F037;

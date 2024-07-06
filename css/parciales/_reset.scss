@@ -2,5 +2,20 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family: $mainfont; 
+    font-family: $fontrubik;
+  }
+
+  .logo {
+    width: 4rem;
+    margin-right: 1rem;
+  }
+
+  *.nav {
+    background-color:#990276;
+    opacity: 0.4;
+    
+  }
+
+  .img {
+    max-width: 100%;
   }

@@ -1,0 +1,42 @@
+*.footer {
+  background-image: url(../images/Footer-luz-lentes-azul.webp);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 15px;
+
+  /*display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area:
+              "redes"
+              "navegacion"; */
+
+  .nav-link {
+    color: #59f037;
+    font-weight: 500;
+  }
+  .redes {
+    background-color: #65b054;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+  }
+  .iconos {
+    display: flex;
+    gap: 10rem;
+    size: 1rem;
+  }
+}
+
+/*.redes {
+  grid-area: redes;
+  background-color: #59F037;
+}
+
+
+/*============ parctica   =============.nav-item {
+  grid-area: nav; */
