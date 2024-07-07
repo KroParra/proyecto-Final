@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="shortcut icon" href="../images/Recurso 1-8.png" type="image/x-icon">
+
+    <!-- Iconos -->
+
+    <script
+      src="https://kit.fontawesome.com/aedf8c4ee0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="shortcut icon"
+      href="../images/Recurso 1-8.png"
+      type="image/x-icon"
+    />
 
     <!-- bootstrap -->
 
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
 
     <!-- estilos -->
 
-    <link rel="stylesheet" href="../css/main.css">
-</head>
-<header> <h1>Contacto</h1></header>
-<nav>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid"> 
-          <a href="../index.html"><img class="logo" src="../images/Logo.png" alt="logo de borde"></a>
+      <nav class="navbar navbar-expand-lg bg-body">
+        <div class="container-fluid">
+          <a href="../index.html"
+            ><img class="logo" src="../images/Logo.png" alt="logo de borde"
+          /></a>
           <a class="navbar-brand" href="#"> Contacto</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./nosotros.html">Nosotros</a>
@@ -42,25 +71,64 @@
           </div>
         </div>
       </nav>
- <body class="container">
-    <main class="container">
-        <h2 class="titulo-h2 justify-content-center ">Contáctanos, estamos ansiosos de saber tus opiniones!</h2>
-    </main>
-    <form>
-        <input class="input1" type="text" placeholder="Ingresa tu nombre" required>
-        <input class="input1" type="email" placeholder="Ingresa tu correo"  required>
-        <br>
-        <textarea class="texto-area" rows="5" cols="19" placeholder="Ingresa tu mensaje" required></textarea><br>
-        <input class="button" type="submit" value="ENVIAR">
-        <input class="button" type="reset" value="BORRAR">
-        
-    </form>
-    <footer><img src="../images/Logo.png" alt="logo de borde" width="50" height="50"> 
-        <p>Nuestros aliados</p>
-        <p>Preguntas frecuentes</p>
-        <p>Tienda</p>
-        </footer>
-     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
- </body>
- 
+    </header>
+    <section class="container">
+      <main class="container">
+        <h2 class="titulo-h2 justify-content-center">
+          Contáctanos, estamos ansiosos de saber tus opiniones!
+        </h2>
+      </main>
+      <form>
+        <input
+          class="input1"
+          type="text"
+          placeholder="Ingresa tu nombre"
+          required
+        />
+        <input
+          class="input1"
+          type="email"
+          placeholder="Ingresa tu correo"
+          required
+        />
+        <br />
+        <textarea
+          class="texto-area"
+          rows="5"
+          cols="19"
+          placeholder="Ingresa tu mensaje"
+          required
+        ></textarea
+        ><br />
+        <input class="button" type="submit" value="ENVIAR" />
+        <input class="button" type="reset" value="BORRAR" />
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="redes">
+         <div data-aos="fade-right" class="iconos">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+         </div>
+      </div>
+      <ul class="nav justify-content-center">
+        <img src="../images/Logo.png" alt="logo de borde" width="50" height="50"> 
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Nuestros aliados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tienda</a>
+        </li>
+      </ul>
+    </footer>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
+  </body>
 </html>

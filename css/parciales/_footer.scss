@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 15px;
+ 
 
   /*display: grid;
     grid-template-columns: 1fr;
@@ -12,6 +12,10 @@
     grid-area:
               "redes"
               "navegacion"; */
+
+  .nav {
+    padding: 1rem;
+  }
 
   .nav-link {
     color: #59f037;
@@ -24,11 +28,12 @@
     align-items: center;
     justify-content: center;
     height: 5rem;
+    
   }
   .iconos {
     display: flex;
     gap: 10rem;
-    size: 1rem;
+    size: 30px;
   }
 }
 
