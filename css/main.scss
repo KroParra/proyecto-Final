@@ -3,6 +3,73 @@
 @import "./parciales/navBar";
 @import "./parciales/footer";
 
+/*=============================================
+=                 Index                   =
+=============================================*/
+
+.bord {
+  height: 30rem;
+  background-image: url(../images/fantasy-vr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .bord-titulo {
+    color: #ffc90e;
+    font-size: 5rem;
+  }
+}
+
+
+.card {
+  margin: 3rem;
+  padding: 3rem;
+  border-style: dashed;
+  border-width: 1rem;
+
+  .card-title {
+    color: $verde1color;
+  }
+
+  .card-buton {
+    border-radius: 3rem;
+    background-color: $mainColor;
+    padding: 15px 30px;
+    border: none;
+    color: $verde1color;
+  }
+  .card-buton:hover {
+    background-color: $hoversecondcolor;
+    transform: scale3d(3, 5);
+  }
+}
+
+// .tarjeta .articulo {
+//   background-color: #ffc90e;
+//   color: #5f328c;
+//   height: 50%;
+//   border-radius: 15px;
+//   padding: 15px;
+
+// }
+// .mona {
+//   width: 50%;
+//   height: 50%;
+// }
+
+// .somos {
+//   background-color: #603087;
+//   color: #ffff;
+//   border-radius: 15px;
+//   padding: 15px;
+// }
+
+/*============  End of Index  =============*/
+
 /* Nosotros */
 .banner {
   height: 100vh;
@@ -76,29 +143,14 @@
       font-weight: bold;
    }*/
 
-.ejemplo {
-  background-color: #59f037;
-}
-.ejem {
-  background-color: #9b578b;
-}
-.exam {
-  background-image: url(../images/banner.jpg);
-  background-size: cover;
-  background-repeat: none;
-  background-position: relative;
-  height: 3rem;
-  color: #f0e5ed;
-}
-
-.ejem {
-  transition: all 3s;
-}
-.ejem :hover {
-  size: 1rem;
-  background-color: aqua;
-  height: 100%;
-}
+// .ejem {
+//   transition: all 3s;
+// }
+// .ejem :hover {
+//   size: 1rem;
+//   background-color: aqua;
+//   height: 100%;
+// }
 
 .linea-decorativa {
   width: 10%; /* Ancho de la línea */
@@ -114,37 +166,13 @@
   margin-bottom: 3rem;
 }
 
+/*=============================================
+=                   PortFolio                 =
+=============================================*/
 .bola {
-  border-style: double;
-
+  margin: 3rem;
   grid-row: 250px;
-
-  .bola-2 {
-    background-color: #9b578b;
-
-    transition-duration: all 5s;
-
-    .bola-2:hover {
-      background-color: #59f037;
-      padding: 20px;
-      transform: skewY(25deg);
-    }
-
-    /*.bola--1 {
-    background-color: #990276;
-  }*/
-  }
-}
-
-.bola-3 {
-  background-color: blue;
-}
-.bola-4 {
-  background-color: brown;
-}
-
-.bola-5 {
-  background-color: rgb(59, 56, 68);
+  row-gap: 2rem;
 }
 
 .img1 {
@@ -158,21 +186,94 @@
 =============================================*/
 
 .clara {
-  background-color: #59f037;
+  background-image: url(../images/gafas_persona.jpg);
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 5rem;
+
+  .titulo-clara {
+    color: $verde1color;
+    align-self: center;
+    margin-top: 20rem;
+  }
 
   .clara-botones {
     margin-top: 20px;
     border: none;
     border-radius: 3rem;
-    background-color: #990276;
-    padding: 15px 30px ;
-    color: #990276;
+    background-color: $mainColor;
+    padding: 15px 30px;
+    color: white;
   }
+
+  .clara-botones:hover {
+    background-color: $hoversecondcolor;
+    transform: scale3d(3, 5);
   }
+}
+
+.sub-titulo-galeria {
+  color: $hovemainrcolor;
+  size: 5rem;
+  margin: 7rem;
+  border-style: dashed;
+  border-radius: 5rem;
+  border-color: $verdesecondcolor;
+  padding: 2rem;
+  align-self: center;
+  text-align: center;
+}
+
+/*============  End of PortFolio  =============*/
+
+/*=============================================
+=                  Afuturo                   =
+=============================================*/
+
+
+.texto-3 {
+  background-color: $verdesecondcolor;
+  background-size: 100%;
+}
+
+.texto-2 {
+  background-color: $hoversecondcolor;
+  background-size: 100%;
+}
+.texto-1 {
+  background-color: $verdehovercolor;
+  background-size: 100%;
+}
+
+/*============  End of Afuturo  =============*/
+
+/*=============================================
+=                   Contacto                   =
+=============================================*/
+
+.input1 {
+  border-color: #603087;
+  border-radius: 5px;
+}
+.texto-area {
+  border-color: #603087;
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 10px 10px 10px;
+  border-color: #603087;
+  color: #ffc90e;
+}
+
+.titulo-h2 {
+  color: #22b14c;
+}
+
+
+/*============  End of Contacto  =============*/
 
