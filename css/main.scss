@@ -28,11 +28,11 @@
 .card {
   margin: 3rem;
   padding: 3rem;
-  border-style: dashed;
-  border-width: 1rem;
+  border-style: groove;
+  border-width: 5px;
 
   .card-title {
-    color: $verde1color;
+    color: $hoversecondcolor;
   }
 
   .card-buton {
