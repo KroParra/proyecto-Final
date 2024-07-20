@@ -1,17 +1,10 @@
 *.footer {
-  background-image: url(../images/Footer-luz-lentes-azul.webp);
   height: 30rem;
+  background-image: url(../images/Footer-luz-lentes-azul.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
- 
-
-  /*display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-area:
-              "redes"
-              "navegacion"; */
+  background-position: top;
 
   .nav {
     padding: 1rem;
@@ -28,12 +21,10 @@
     align-items: center;
     justify-content: center;
     height: 5rem;
-    
   }
   .iconos {
     display: flex;
-    gap: 10rem;
-    size: 30px;
+    gap: 5rem;
   }
 }
 
