@@ -1,3 +1,4 @@
+@import "./parciales/media-queries";
 @import "./parciales/variables";
 @import "./parciales/reset";
 @import "./parciales/navBar";
@@ -63,28 +64,40 @@
   background-attachment: fixed;
   background-position: top;
   text-align: center;
-  
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   .titulo-banner {
     color: #f0eaee;
-    size: 30rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     padding: 5rem;
     font-weight: 700;
     text-shadow: 0 0 20px $hovemainrcolor;
-    
   }
 }
+
+/* Main */
 
 .sub-titulo-1 {
   color: #990276;
   text-shadow: #59f037;
   margin-bottom: 0px;
+}
+
+.text-container {
+  background-color: $verdesecondcolor;
+  opacity: 0.8;
+  color: #391755;
+  font-weight: 500;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+
+  @include mobile {
+    background-color: #ffc90e;
+  }
 }
 
 .video-container {
@@ -151,8 +164,18 @@
 }
 
 .btn {
-  background-color: #59f037;
-  margin-bottom: 3rem;
+  border-radius: 3rem;
+  background-color: $mainColor;
+  padding: 15px 30px;
+  border: none;
+  color: $verde1color;
+  display: flex;
+  justify-content: center;
+
+  @include mobile {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*============  End of Nosotros  =============*/
