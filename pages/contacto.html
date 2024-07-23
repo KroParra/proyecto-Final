@@ -80,38 +80,35 @@
         </div>
       </nav>
     </header>
-    <section class="container">
-      <main class="container">
-        <h2 class="titulo-h2 justify-content-center">
+      <header class="">
+      <section class="hero-contact">
+        <h1 data-aos="fade-up"
+        data-aos-duration="3000" titulo-h1 justify-content-center>
           Contáctanos, estamos ansiosos de saber tus opiniones!
-        </h2>
-      </main>
-      <form>
-        <input
-          class="input1"
-          type="text"
-          placeholder="Ingresa tu nombre"
-          required
-        />
-        <input
-          class="input1"
-          type="email"
-          placeholder="Ingresa tu correo"
-          required
-        />
-        <br />
-        <textarea
-          class="texto-area"
-          rows="5"
-          cols="19"
-          placeholder="Ingresa tu mensaje"
-          required
-        ></textarea
-        ><br />
-        <input class="button" type="submit" value="ENVIAR" />
-        <input class="button" type="reset" value="BORRAR" />
-      </form>
+        </h1>
+      </section>
+      </header>
+    <main class="container-fluid contact">
+      <h2 class="sub-contact">Contáctanos en la realidad</h2>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Número de teléfono</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="+57 308 654 1753">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Correo electrónico</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="hola.kro@gmail.com">
+      </div>
     </section>
+    
+  </main>
     <footer class="footer">
       <div class="redes">
          <div data-aos="fade-right" class="iconos">
