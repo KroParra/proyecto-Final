@@ -21,8 +21,28 @@
   justify-content: center;
 
   .bord-titulo {
+    
+    animation: typing 2.5s steps(12), blink 0.5s step-end infinite alternate;
+    width: 20ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
     color: #f3f705;
     font-size: 5rem;
+    
+  }
+
+  @keyframes typing {
+    from {width: 0; }
+  
+  }
+
+  @keyframes blink {
+    100% {border-color: transparent;}
+  }
+
+  @include mobile {
+    animation: none;
   }
 }
 
@@ -163,9 +183,7 @@
 =                   PortFolio                 =
 =============================================*/
 
-
-              /*   banner/hero image      */    
-
+/*   banner/hero image      */
 
 .clara {
   height: 100vh;
@@ -286,7 +304,6 @@ video {
     grid-template-areas:
       "lateral"
       "area";
-
   }
 }
 
@@ -318,19 +335,35 @@ video {
 
   .titulo-area {
     font-weight: 700;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     color: $verde1color;
+    text-align: center;
+
+    @include mobile {
+      padding-bottom: 0;
+      font-size: 1.5rem;
+      
+  }
+  }
+
+  .parr{
+    padding: 2rem;
+    text-align: justify;
+
+    @include mobile {
+      padding-top: 0;
+      font-size: .9rem;
+      color: $verde1color;
+      margin-bottom: 1rem;
   }
 }
-
+}
 .foto {
   grid-area: foto;
   background-image: url(../images/virtual-robot.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-attachment: fixed;
-
-  
 }
 
 /*============  End of Afuturo  =============*/
@@ -339,8 +372,7 @@ video {
 =                   Contacto                   =
 =============================================*/
 
-
-.hero-contact{
+.hero-contact {
   height: 30rem;
   background-image: url(../images/artificial-naranjojpg-1.jpg);
   background-size: cover;
@@ -351,27 +383,28 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: whitesmoke;
+  color: #f3f705;
   font-size: 3rem;
-
-  
 }
 
 .contact {
-   background-color: $verdehovercolor;
-   padding: 4rem;
+  background-color: $verdehovercolor;
+  padding: 4rem;
 
-   .sub-contact {
+  .sub-contact {
     padding: 1.2rem;
     color: #ffc90e;
-   }
+  }
 }
 
 .form-control {
   background-color: #59f037;
-  opacity: 0.5;
-  color: aliceblue;
+  opacity: 0.4;
+  color: white;
 }
 
+.form-label {
+  color: beige;
+}
 
 /*============  End of Contacto  =============*/
