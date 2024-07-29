@@ -9,42 +9,34 @@
 =============================================*/
 
 .bord {
-  height: 30rem;
+
+  height: 100vh;
   background-image: url(../images/fantasy-vr.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat ;
   background-attachment: fixed;
   background-position: top;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 
   .bord-titulo {
-    
-    animation: typing 2.5s steps(12), blink 0.5s step-end infinite alternate;
-    width: 20ch;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    color: #f3f705;
-    font-size: 5rem;
-    
-  }
 
-  @keyframes typing {
-    from {width: 0; }
-  
-  }
-
-  @keyframes blink {
-    100% {border-color: transparent;}
-  }
-
-  @include mobile {
-    animation: none;
-  }
+  color: #f3f705;
+  align-self: center;
+  font-weight: 700;
+  text-shadow: 0 0 20px $hovemainrcolor;
+  margin-top: 15rem;
+  font-size: 7rem;
+        
+    }
 }
+
+
+
+  
 
 .card {
   margin: 2rem;
@@ -64,6 +56,7 @@
     padding: 15px 30px;
     border: none;
     color: $verde1color;
+    text-align: center;
   }
 
   .card-buton:hover {
@@ -77,30 +70,31 @@
 /*=============================================
 =                   Nosotros                   =
 =============================================*/
+
+
+/* Main */
+
 .hero {
-  height: 30rem;
+  height: 100vh;
   background-image: url(../images/virtual-robot.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: top;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
 
   .titulo-hero {
-    color: #f0eaee;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    padding: 5rem;
+    color: whitesmoke;
+    align-self: center;
+    margin-top: 15rem ;
+    font-size: 4rem;
     font-weight: 700;
     text-shadow: 0 0 20px $hovemainrcolor;
   }
 }
-
-/* Main */
 
 .sub-titulo-1 {
   color: #990276;
@@ -170,6 +164,12 @@
   border: none;
   color: $verde1color;
   display: flex;
+
+   .btn:hover { 
+    background-color: $hoversecondcolor;
+    transform: scale3d(3, 5);
+  
+  }
 
   @include mobile {
     display: flex;
